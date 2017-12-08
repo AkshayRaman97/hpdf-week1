@@ -4,17 +4,17 @@ This repository contains the solution of tasks for week 1 of hasura product deve
 
 ## Getting Started
 Follow these instructions to setup your environment to test the app.
-#### Install Git
+### Install Git
 To check if git is installed.
 ```
 $ git --version
 ```
 If not installed.
-##### For MacOs
+#### For MacOs
 Download latest [Git for MacOs Installer](https://sourceforge.net/projects/git-osx-installer/files/)
-##### For Windows
+#### For Windows
 Download the latest [Git for Windows installer](https://git-for-windows.github.io/).
-##### For Linux
+#### For Linux
  Debian / Ubuntu (apt-get)
 ```
 $ sudo apt-get update
@@ -28,13 +28,13 @@ or for older versions
 ```
 $ sudo yum install git
 ```
-#### Cloning the repository
+### Cloning the repository
 To clone the repository enter the following command in your terminal or command prompt
 ```
 $ git clone https://github.com/AkshayRaman97/hpdf-week1.git
 ```
 A local clone of the repository will be done in the current working directory.
-### Prerequisites
+## Prerequisites
 The packages needed to run the app are :
 * Python 3.x
 * pip3
@@ -42,20 +42,20 @@ The packages needed to run the app are :
 * requests - python library
 
 ### Installations
-##### 1. Python
+#### 1. Python
 Check if python3 is already installed using the following command.
 ```
 $ python3 --version
 ```
 If installed proceed with next installation, else follow below instructions for the appropriate OS.
 
-###### For Linux
+##### For Linux
 Enter following commands in terminal.
 ```
 $ sudo apt-get update
 $ sudo apt-get install python3.6
 ```
-###### For MacOS
+##### For MacOS
 Enter following commands in terminal.
 To install brew
 ```
@@ -65,22 +65,22 @@ Now, we can install Python 3:
 ```
 $ brew install python3
 ```
-###### For Windows
+##### For Windows
 Use the following link to download Python3.6
 https://www.python.org/downloads/
-##### 2. pip3
+#### 2. pip3
 Check if pip3 is installed using by entering following command in the terminal
 ```
 $ pip3 --version
 ```
 If not installed, perform the installations accordingly.
-###### For Linux
+##### For Linux
 Enter following commands in terminal.
 ```
 $ sudo apt-get update
 $ sudo apt-get install python3-pip
 ```
-###### For MacOs
+##### For MacOs
 pip3 is installed along with python3 when using brew.
 ```
 $ brew install python3
@@ -124,7 +124,7 @@ http://127.0.0.1:8080/
 Click on provided links to view each task.
 ### Authors
 * **Akshay Raman** - [*GitHub Profile*](https://github.com/AkshayRaman97)
-###### Thank you!
+#### Thank you!
 
 
 
