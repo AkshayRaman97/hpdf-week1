@@ -109,7 +109,7 @@ In order to run the app make sure you are in the hpdf-week1 directory and run th
 ```
 $ python3 app.py
 ```
-You should the following in your terminal
+You should see the following in your terminal
 ```
  * Running on http://127.0.0.1:8080/ (Press CTRL+C to quit)
  * Restarting with stat
