@@ -69,7 +69,7 @@ $ brew install python3
 Use the following link to download Python3.6
 https://www.python.org/downloads/
 #### 2. pip3
-Check if pip3 is installed using by entering following command in the terminal
+Check if pip3 is installed by entering following command in the terminal
 ```
 $ pip3 --version
 ```
@@ -99,7 +99,7 @@ You can check for all installed packages using.
 $ pip3 freeze
 ```
 #### 4. requests library
-In order for the app to work properly the requests library is needed to be installed. Install using 
+For the app to work properly the requests library must be installed. Install using
 ```
 $ pip3 install requests
 ```
