@@ -1,0 +1,13 @@
+body {
+  padding: 20px;
+  font-family: monospace;
+}
+
+table {
+  margin: 30px;
+  font-family: cursive;
+  font-size: 22px;
+}
+th,td {
+  padding: 10px;
+}
