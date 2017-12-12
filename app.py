@@ -23,12 +23,19 @@ def authors():
     return render_template('authors.html',users=users)
 
 # Task 3
-@app.route('/setcookie',methods=['GET'])
+@app.route('/cookieform',methods=['POST','GET'])
+def cookie():
+    return render_template('cookie_form.html')
+
+#Task 3
+@app.route('/setcookie',methods=['GET','POST'])
 def setcookie():
+    name = request.form.get('name')
+    age = request.form.get('age')
     resp = make_response("Created cookie ! go to <a href='/getcookie'>/getcookie</a> to see the cookie!")
     #resp.set_cookie('Cookie',{"name":"Akshay","age":20})
-    resp.set_cookie("Name","Akshay")
-    resp.set_cookie("Age","20")
+    resp.set_cookie("Name",name)
+    resp.set_cookie("Age",age)
     return resp
 
 # Task 4
